@@ -88,7 +88,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func readTheText(input: String){
         let read = AVSpeechUtterance(string: input)
         read.rate = 0.4
-        read.pitchMultiplier = 1.2
+        read.pitchMultiplier = 1.3
         speak.speak(read)
     }
     
